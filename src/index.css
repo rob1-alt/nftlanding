@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: "Chillax";
+  src: local("Chillax"), url("./fonts/Chillax-Bold.woff") format("woff");
+  font-weight: bold;
+  }

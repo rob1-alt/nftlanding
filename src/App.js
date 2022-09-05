@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './navBar';
+import Hero from '../src/assets/hero.png'
+import backgroundHero from '../src/assets/Circle5.png'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar></Navbar>
+      <h1 className='textHero'>Discover <span className='unic'>Unique</span> NFT places</h1>
+        <div>
+          <img className='heroBanner' alt='#' src={Hero}></img>
+        </div>
     </div>
+    
+
   );
 }
 
